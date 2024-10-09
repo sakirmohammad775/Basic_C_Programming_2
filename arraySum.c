@@ -16,6 +16,7 @@ int main()
     }
     printf("%d\n", sum);
     int avg=sum/n;
+    
     printf("%d\n", avg);
     return 0;
 }

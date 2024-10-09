@@ -1,8 +1,1 @@
-min=11, max=11
-min=8, max=11
-min=8, max=23
-min=8, max=450
-min=8, max=450
-min=8, max=450
-min=8, max=450
-Minimum:8, Maximum:450
+YES

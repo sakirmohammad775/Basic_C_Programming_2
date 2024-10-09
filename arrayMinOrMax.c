@@ -24,5 +24,6 @@ int main()
         printf("min=%d, max=%d\n",min,max);
     }
     printf("Minimum:%d, Maximum:%d\n", min, max);
+    printf("Minimum:%d, Maximum:%d\n", min, max);
     return 0;
 }

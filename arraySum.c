@@ -1,13 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int a[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&a[i]);
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
     }
-    
-
-
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+    {
+        sum += a[i];
+    }
+    printf("%d\n", sum);
+    int avg=sum/n;
+    printf("%d\n", avg);
+    return 0;
 }
